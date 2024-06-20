@@ -42,9 +42,9 @@ def overlay_images(person_image_path, background_image_path, output_path):
         print("No se detectaron rostros en la imagen de la persona.")
 
 # Rutas de las imágenes de entrada y salida
-person_image_path = "C:/Users/Michael/Desktop/Filtimage/imagen.jpg"
-background_image_path = "C:/Users/Michael/Desktop/Filtimage/imagen_fondo.jpeg"
-output_path = "C:/Users/Michael/Desktop/Filtimage/imagen_resultante.jpg"
+person_image_path = "C:/Users/Michael/Documents/GitHub/Filtimage/imagen.jpg"
+background_image_path = "C:/Users/Michael/Documents/GitHub/Filtimage/imagen_fondo.jpeg"
+output_path = "C:/Users/Michael/Documents/GitHub/Filtimage/imagen_resultante.jpg"
 
 # Llamar a la función para superponer las imágenes
 overlay_images(person_image_path, background_image_path, output_path)
